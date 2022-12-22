@@ -1,2 +1,19 @@
-
+*{
+    margin: 0;
+    padding: 0;
+}
+.main-container{
+    display: flex;
+    background-color: aquamarine;
+    /* margin: 0; */
+    /* padding: 0; */
+    flex-wrap:wrap;
+    justify-content: space-between;
+    /* flex-flow: column; */
+}
+.div1{
+    height: 150px;
+    width: 260px;
+    border: 1px solid black;
+}
 /* Your CSS Code here. */
