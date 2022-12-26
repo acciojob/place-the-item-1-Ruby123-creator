@@ -1,17 +1,14 @@
-
-.main-container{
+.holder{
+    border: 2px solid red;
     display: flex;
-    background-color: aquamarine;
-    /* margin: 0; */
-    /* padding: 0; */
-    flex-wrap:wrap;
-    flex-direction:row;
-    justify-content: space-between;
-    /* flex-flow: column; */
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content:space-between;
 }
-.div1{
-    height: 150px;
-    width: 260px;
-    border: 1px solid black;
+.item{
+    width: 200px;
+    height: 200px;
+    margin: 10px;
+    border: 2px solid black;
 }
 /* Your CSS Code here. */
